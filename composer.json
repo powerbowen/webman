@@ -1,0 +1,29 @@
+{
+    "name": "powerbowen/webman-json",
+    "type": "library",
+    "description": "JSON encoding and decoding",
+    "keywords": [
+        "json"
+    ],
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/powerbowen/webman-json"
+    },
+    "require": {
+        "php": ">=7.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "powerbowen\\webman-json\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "infection/extension-installer": true,
+            "composer/package-versions-deprecated": true
+        }
+    },
+    "prefer-stable": true
+}
